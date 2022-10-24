@@ -116,14 +116,7 @@ buttonSubtraction.addEventListener('click', () =>{
 
 
 card1.addEventListener('click', () =>{
-    
-    sound.cafeteria.pause()
-    sound.lareira.pause()
-    sound.chuva.pause()
     sound.floresta.play()
-    
-
-
     svg4.classList.remove('clicado')
     svg3.classList.remove('clicado')
     svg2.classList.remove('clicado')
@@ -131,10 +124,6 @@ card1.addEventListener('click', () =>{
 })
 
 card2.addEventListener('click', () =>{
-    
-    sound.cafeteria.pause()
-    sound.floresta.pause()
-    sound.lareira.pause()
     sound.chuva.play()
     svg4.classList.remove('clicado')
     svg3.classList.remove('clicado')
@@ -143,10 +132,6 @@ card2.addEventListener('click', () =>{
 })
 
 card3.addEventListener('click', () =>{
-    
-    sound.floresta.pause()
-    sound.lareira.pause()
-    sound.chuva.pause()
     sound.cafeteria.play()
     svg4.classList.remove('clicado')
     svg1.classList.remove('clicado')
@@ -155,10 +140,6 @@ card3.addEventListener('click', () =>{
 })
 
 card4.addEventListener('click', () =>{
-    
-    sound.floresta.pause()
-    sound.chuva.pause()
-    sound.cafeteria.pause()
     sound.lareira.play()
     svg3.classList.remove('clicado')
     svg1.classList.remove('clicado')
